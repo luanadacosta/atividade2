@@ -4,6 +4,35 @@
 <head>
     <meta charset="utf-8">
     <title>Conhecendo GitHub</title>
+    <!--Adicionando Css Interno-->
+    <style>
+        /* Aqui iremos adicionar o estilo doa página */
+
+        /* Definições gerais da pagina */
+        *{
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Zerar a margin e padding do corpo da pagina */
+        body{
+            margin: 0px;
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            color:rgb(83, 92, 219); 
+        }
+
+        h3{
+            color: rgb(83, 92, 219);
+        }
+
+        #dicas{
+            color: rgb(57, 44, 172);
+        }
+    </style>
 </head>
 
 <body>
@@ -11,7 +40,7 @@
         <img src="img/logogit.png" alt="logogit" width="200px">
     </a>
 
-    <h1>Conhecendo GitHub</h1>
+    <h1 style="color:#fff;background-color: rgb(14, 13, 13);padding: 15px; text-align: center;">Conhecendo GitHub</h1>
     <h2>Realizando Commits</h2>
     <ul> <!--manual git -->
         <li>Utilizar nomes de Commits objetivos e curtos até 50 caracteres</li>
@@ -22,7 +51,7 @@
         <li>Colocar em forma iperativa. <b>Ex:</b> como se estivesse dando uma ordem. Remover o banner rotativo</li>
     </ul>
 
-    <h3>Dicas de boas praticas para nomes de commits</h3>
+    <h3 id="dicas">Dicas de boas praticas para nomes de commits</h3>
     <ul>
         <li><b>Adicionar:</b>Funcionalidade zoom da Galeria de imagens adicionadas</li>
         <li><b>Alterar:</b>Funcionalidade zoom da Galeria de imagens alteradas</li>
